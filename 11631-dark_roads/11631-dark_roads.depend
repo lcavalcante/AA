@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1386608365 source:c:\users\lucas\dropbox\programacao\aa\11631-dark_roads\main.cpp
+	<iostream>
+	<cstdio>
+	<sstream>
+	<utility>
+	<cctype>
+	<algorithm>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<map>
+	<new>
+	<set>
+

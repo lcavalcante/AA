@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1397076372 source:c:\users\lucas\dropbox\programacao\aa\624 - cd_\main.cpp
+	<iostream>
+	<cstdio>
+	<sstream>
+	<utility>
+	<cctype>
+	<algorithm>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<map>
+	<new>
+	<set>
+	<cstring>
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1386529159 source:c:\users\lucas\dropbox\programacao\aa\graph_conectivity\main.cpp
+	<iostream>
+	<cstdio>
+	<sstream>
+	<utility>
+	<cctype>
+	<algorithm>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<map>
+	<new>
+	<set>
+

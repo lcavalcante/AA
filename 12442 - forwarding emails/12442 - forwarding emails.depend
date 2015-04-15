@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1386567467 source:c:\users\lucas\dropbox\programacao\aa\12442 - forwarding emails\main.cpp
+	<iostream>
+	<cstdio>
+	<sstream>
+	<utility>
+	<cctype>
+	<algorithm>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<map>
+	<new>
+	<set>
+

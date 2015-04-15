@@ -1,0 +1,93 @@
+14:31:41 **** Build of configuration Debug for project bugs ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘bool bfs(int)’:
+../main.cpp:41:8: error: statement cannot resolve address of overloaded function
+../main.cpp: In function ‘int main()’:
+../main.cpp:70:21: error: expected primary-expression before ‘)’ token
+../main.cpp:77:10: error: ‘u’ was not declared in this scope
+../main.cpp: In function ‘bool bfs(int)’:
+../main.cpp:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+14:33:28 **** Incremental Build of configuration Debug for project bugs ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘bool bfs(int)’:
+../main.cpp:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: bugs
+Invoking: Cross G++ Linker
+g++  -o "bugs"  ./main.o   
+Finished building target: bugs
+ 
+14:33:43 **** Incremental Build of configuration Debug for project bugs ****
+make all 
+make: Nothing to be done for `all'.
+14:34:26 **** Incremental Build of configuration Debug for project bugs ****
+make all 
+make: Nothing to be done for `all'.
+14:36:15 **** Incremental Build of configuration Debug for project bugs ****
+make all 
+make: Nothing to be done for `all'.
+14:36:17 **** Build of configuration Debug for project bugs2 ****
+make all 
+Building file: ../src/bugs2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/bugs2.d" -MT"src/bugs2.d" -o "src/bugs2.o" "../src/bugs2.cpp"
+Finished building: ../src/bugs2.cpp
+ 
+Building target: bugs2
+Invoking: Cross G++ Linker
+g++  -o "bugs2"  ./src/bugs2.o   
+Finished building target: bugs2
+ 
+14:36:24 **** Incremental Build of configuration Debug for project bugs ****
+make all 
+make: Nothing to be done for `all'.
+14:45:21 **** Incremental Build of configuration Debug for project bugs2 ****
+make all 
+Building file: ../src/bugs2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/bugs2.d" -MT"src/bugs2.d" -o "src/bugs2.o" "../src/bugs2.cpp"
+Finished building: ../src/bugs2.cpp
+ 
+Building target: bugs2
+Invoking: Cross G++ Linker
+g++  -o "bugs2"  ./src/bugs2.o   
+Finished building target: bugs2
+ 
+17:19:17 **** Build of configuration Debug for project 10004-bicoloring ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: 10004-bicoloring
+Invoking: Cross G++ Linker
+g++  -o "10004-bicoloring"  ./src/main.o   
+Finished building target: 10004-bicoloring
+ 
+17:19:21 **** Incremental Build of configuration Debug for project bugs ****
+make all 
+make: Nothing to be done for `all'.
+17:19:23 **** Incremental Build of configuration Debug for project bugs2 ****
+make all 
+Building file: ../src/bugs2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/bugs2.d" -MT"src/bugs2.d" -o "src/bugs2.o" "../src/bugs2.cpp"
+Finished building: ../src/bugs2.cpp
+ 
+Building target: bugs2
+Invoking: Cross G++ Linker
+g++  -o "bugs2"  ./src/bugs2.o   
+Finished building target: bugs2
+ 
+17:19:32 **** Incremental Build of configuration Debug for project 10004-bicoloring ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,15 @@
+17:19:23 **** Incremental Build of configuration Debug for project bugs2 ****
+make all 
+Building file: ../src/bugs2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/bugs2.d" -MT"src/bugs2.d" -o "src/bugs2.o" "../src/bugs2.cpp"
+Finished building: ../src/bugs2.cpp
+ 
+Building target: bugs2
+Invoking: Cross G++ Linker
+g++  -o "bugs2"  ./src/bugs2.o   
+Finished building target: bugs2
+ 
+
+17:19:25 Build Finished (took 1s.748ms)
+

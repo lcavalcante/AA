@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1397073280 source:c:\users\lucas\dropbox\programacao\aa\610 - street directions\main.cpp
+	<algorithm>
+	<bitset>
+	<cctype>
+	<cmath>
+	<complex>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<deque>
+	<fstream>
+	<iostream>
+	<list>
+	<map>
+	<memory>
+	<queue>
+	<set>
+	<sstream>
+	<stack>
+	<string>
+	<utility>
+	<vector>
+	<iomanip>
+
+1397073293 source:c:\users\lucas\dropbox\programacao\aa\610 - street directions\certo.cpp
+	<iostream>
+	<cstdio>
+	<sstream>
+	<utility>
+	<cctype>
+	<algorithm>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<map>
+	<new>
+	<set>
+	<cstring>
+

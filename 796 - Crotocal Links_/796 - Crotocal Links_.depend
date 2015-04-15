@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1397081451 source:c:\users\lucas\dropbox\programacao\aa\796 - crotocal links_\main.cpp
+	<string>
+	<iostream>
+	<cstdio>
+	<sstream>
+	<utility>
+	<cctype>
+	<algorithm>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<map>
+	<new>
+	<set>
+

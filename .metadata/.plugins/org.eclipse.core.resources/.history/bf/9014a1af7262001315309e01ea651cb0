@@ -1,0 +1,47 @@
+// Lucas Medeiros Cavalcante
+
+#include <string>
+#include <iostream>
+#include <cstdio>
+#include <sstream>
+#include <utility>
+#include <cctype>
+#include <algorithm>
+#include <vector>
+#include <iterator>
+#include <math.h>
+#include <queue>
+#include <map>
+#include <new>
+#include <set>
+
+#define NUM 20005
+#define MAXINT 2147483647
+
+using namespace std;
+
+typedef pair<int, int> ii;
+typedef vector<int> vi;
+typedef vector<ii> vii;
+
+vector<vi> adj;
+vi dist;
+
+int main(){
+	int entradas;
+
+	scanf("%d", &entradas);
+	for(int k = 0; k < entradas ; k++){
+		int bugs, lig;
+		scanf("%d %d", &bugs, &lig);
+		adj.assign(bugs, vi);
+		for(int j = 0; j < lig; j++){
+			int ori, dest;
+			scanf("%d %d", &ori, &dest);
+			adj.at(ori).push_back(dest);
+		}
+
+
+	}
+
+}

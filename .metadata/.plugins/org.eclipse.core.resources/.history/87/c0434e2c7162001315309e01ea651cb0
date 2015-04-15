@@ -1,0 +1,28 @@
+// Lucas Medeiros Cavalcante
+
+#include <string>
+#include <iostream>
+#include <cstdio>
+#include <sstream>
+#include <utility>
+#include <cctype>
+#include <algorithm>
+#include <vector>
+#include <iterator>
+#include <math.h>
+#include <queue>
+#include <map>
+#include <new>
+#include <set>
+
+#define NUM 20005
+#define MAXINT 2147483647
+
+using namespace std;
+
+typedef pair<int, int> ii;
+typedef vector<int> vi;
+typedef vector<ii> vii;
+
+vector<vii> adj;
+vi dist;

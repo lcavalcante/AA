@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1387384504 source:c:\users\lucas\dropbox\programacao\aa\inna and pink pony\main.cpp
+	<iostream>
+	<cstdio>
+	<sstream>
+	<utility>
+	<cctype>
+	<algorithm>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<map>
+	<new>
+	<set>
+	<stack>
+
