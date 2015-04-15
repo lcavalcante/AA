@@ -43,7 +43,7 @@ int LIS(string entrada, int size){
                 }
             }
             else {
-                if(aberto = 0){
+                if(aberto == 0){
                     DEBUG("comecar uma nova");
                     if(len > maxLen){
                         sequences = 1;
