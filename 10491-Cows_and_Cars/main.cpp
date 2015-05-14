@@ -15,43 +15,31 @@ using namespace std;
 
 #define MOD 1000000007
 #define MAX64 0x7FFFFFFFFFFFFFFF
-#define NUM 10000001
-#define INF 0x7FFFFFFF
+#define NUM 2015
 
 typedef pair<int, int> ii;
 
 typedef vector<int> vi;
 
 typedef vector<ii> vii;
-int id[NUM];
+
 int main(){
-    string entrada; 
-    cin >> entrada;
-    REP(i,NUM){id[i] = INF;};
-    
-    int len, sequences, d;
-    len = 0; 
-    sequences = 1;
-    d = 5000000;
-    
-    REP(i,SZ(entrada)){
-        char ch = entrada[i];
-        if(ch == '('){
-            d++;
-            if(id[d] == INF) id[d]=i;
-        }
-        else{
-            int aux = i - id[d] + 1;
-            if(aux == len) {
-                sequences++;
-            }
-            if(aux > len ){
-                len = aux;
-                sequences = 1;
-            }
-            id[d+1] = INF; 
-            d--;
-        }
+    double nCows, nCars, nShow, nDoors;
+
+    while(cin >> nCows >> nCars >> nShow){
+
+    nDoors = nCars + nCows;
+
+    double pCarFirst = nCars/nDoors;
+    double pCarCar = (nCars-1)/(nDoors-nShow-1);
+    double p1 = pCarFirst * pCarCar;
+    double pCowFirst = nCows/nDoors;
+    double pCowCar = nCars/(nDoors-nShow-1);
+    double p2 = pCowFirst * pCowCar;
+
+    printf("%.5f\n", p1+p2);
     }
-    printf("%d %d\n", len, sequences);
+
+
+    return 0;
 }
